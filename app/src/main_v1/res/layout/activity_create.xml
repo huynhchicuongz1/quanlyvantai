@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="10"
+        android:padding="20dp"
+        android:background="@color/colorAccent"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_weight="7"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/edtTenNguoiDung"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Tên người dùng"
+                android:inputType="text"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/edtMatKhau"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Mật khẩu"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/edtNhapLaiMatKhau"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Nhập lại mật khẩu"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/edtSDT"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Số điện thoại"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/edtEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Email"
+                android:textSize="20dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="#FFFFFF"
+            android:gravity="center">
+
+            <Button
+            android:id="@+id/btnHuy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hủy" />
+            <Button
+                android:id="@+id/btnDangKy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Đăng ký" />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

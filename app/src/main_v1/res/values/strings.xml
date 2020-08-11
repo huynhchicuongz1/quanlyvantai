@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">QuanLyVanTai</string>
+    <string name="diaChi">Địa Chỉ</string>
+    <string name="ngaySinh">Ngày Sinh</string>
+    <string name="maTX">Mã Tài Xế</string>
+    <string name="tenTX">Tên Tài Xế</string>
+    <string name="taiXe">Quản lý Tài Xế</string>
+    <string name="add">Thêm</string>
+    <string name="remove">Xóa</string>
+    <string name="update">Sửa</string>
+    <string name="clear">Làm mới</string>
+    <string name="exit">Thoát</string>
+    <string name="password">Mật khẩu</string>
+    <string name="username">Tài khoản</string>
+    <string name="login">Đăng nhập</string>
+    <string name="sDangxuat">Đăng xuất</string>
+    <string name="sMenu">Các danh mục</string>
+    <string name="sMaTX">Mã xe</string>
+    <string name="sTenTX">Tên xe</string>
+    <string name="xeTai">Quản lý Xe</string>
+    <string name="tenXe">Tên Xe</string>
+    <string name="maXe">Mã Xe</string>
+    <string name="sxXe">Năm sản xuất</string>
+    <string name="taoTaiKhoan">Tạo tài khoản mới</string>
+    <string name="btnStart">Bắt đầu</string>
+    <string name="itemCaiDat">Cài đặt</string>
+    <string name="itemThongtin">Thông tin</string>
+</resources>

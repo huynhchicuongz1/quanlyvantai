@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="tdc.edu.vn.doan">
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_foreground"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".GiaoDien.MainActivityTimKiem"></activity>
+        <activity android:name=".GiaoDien.MainActivityThongKe" />
+        <activity android:name=".GiaoDien.MainActivityPhanCong" />
+        <activity android:name=".GiaoDien.MainActivityTuyen" />
+        <activity android:name=".GiaoDien.MainActivityTinh" />
+        <activity android:name=".GiaoDien.MainActivityXe" />
+        <activity android:name=".GiaoDien.MainActivityMenu" />
+
+        <activity android:name=".GiaoDien.MainActivityDangNhap" />
+        <activity android:name=".GiaoDien.ActivityDetail" />
+        <activity android:name=".GiaoDien.ActivityTaiXe" />
+        <activity android:name=".GiaoDien.IconActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

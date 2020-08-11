@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">QuanLyVanTai</string>
+    <string name="diaChi">" Address"</string>
+    <string name="ngaySinh">Date of birth</string>
+    <string name="maTX">" Driver code"</string>
+    <string name="tenTX">" Driver name"</string>
+    <string name="taiXe">Drive management</string>
+    <string name="add">Add</string>
+    <string name="remove">Delete</string>
+    <string name="update">Repair</string>
+    <string name="clear">Refresh</string>
+    <string name="exit">Close</string>
+    <string name="password">Password</string>
+    <string name="username">Account</string>
+    <string name="login">Login</string>
+    <string name="sDangxuat">Logout</string>
+    <string name="sMenu">Menu</string>
+    <string name="sMaTX">Code car</string>
+    <string name="sTenTX">Name car</string>
+    <string name="xeTai">Vehicle management</string>
+    <string name="tenXe">Name</string>
+    <string name="maXe">Code</string>
+    <string name="sxXe">Year of manufacture</string>
+    <string name="taoTaiKhoan">Create a new account</string>
+    <string name="btnStart">Start</string>
+    <string name="itemCaiDat">Setting</string>
+    <string name="itemThongtin">Information</string>
+</resources>

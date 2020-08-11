@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".GiaoDien.MainActivity">
+
+    <EditText
+        android:id="@+id/et_soPhieu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="@string/etSoPhieu"
+        android:paddingLeft="10dp" />
+
+    <EditText
+        android:id="@+id/et_ngayXuatPhieu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="@string/etNgayXuatPhieu"
+        android:inputType="date"
+        android:paddingLeft="10dp" />
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:id="@+id/et_ngayXuatPhat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/etNgayXuatPhat"
+        android:inputType="date"
+        android:paddingLeft="10dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tvTuyenXe"/>
+    <Spinner
+        android:id="@+id/spnr_tuyen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"></Spinner>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/tvNhaXe"/>
+    <Spinner
+        android:id="@+id/spnr_xe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"></Spinner>
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_them"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_add"
+            android:text="@string/btnThem" />
+
+        <Button
+            android:id="@+id/btn_sua"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_edit"
+            android:text="@string/btnSua" />
+
+        <Button
+            android:id="@+id/btn_xoa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_delete"
+            android:text="@string/btnXoa" />
+
+        <Button
+            android:id="@+id/btn_clear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_clear"
+            android:text="@string/btnClear" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lv_danhSach"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp">
+
+    </ListView>
+</LinearLayout>

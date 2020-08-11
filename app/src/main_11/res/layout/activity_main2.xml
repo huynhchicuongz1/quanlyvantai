@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".GiaoDien.Main2Activity">
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/img_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/xetai1"
+           />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_QLTAIXE"
+            style="@style/btnMenu"
+            android:text="@string/btn_QLTAIXE" />
+
+        <Button
+            android:id="@+id/btn_QLXe"
+            style="@style/btnMenu"
+            android:text="@string/btn_QLXe" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnPhanCong"
+            style="@style/btnMenu"
+            android:text="@string/btn_QLPhanCong" />
+
+        <Button
+            android:id="@+id/btn_QLTuyen"
+            style="@style/btnMenu"
+            android:text="@string/btn_QLTuyen" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_QLTinh"
+            style="@style/btnMenu"
+            android:text="@string/btn_QLTinh" />
+
+        <Button
+            android:id="@+id/btn_TimKiem"
+            style="@style/btnMenu"
+            android:text="@string/btn_TimKiem" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/itemCaiDat"
+        android:title="@string/itemCaiDat"
+        android:icon="@drawable/ic_action_caidat"/>
+    <item android:id="@+id/itemDangXuat"
+        android:title="@string/sDangxuat"/>
+    <item android:id="@+id/itemThongTin"
+        android:title="@string/itemThongtin"/>
+</menu>

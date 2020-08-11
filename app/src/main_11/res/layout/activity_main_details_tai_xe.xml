@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".GiaoDien.MainActivityDetailsTaiXe">
+    <EditText
+        android:id="@+id/txtMaTX"
+        android:enabled="false"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="@string/tvMaTX"
+        android:paddingLeft="10dp" />
+    <EditText
+        android:id="@+id/txtTenTX"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="@string/tvTenTX"
+        android:paddingLeft="10dp" />
+    <EditText
+        android:id="@+id/txtNgaySinh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="@string/tvNgaySinh"
+        android:inputType="date"
+        android:paddingLeft="10dp" />
+
+    <EditText
+        android:id="@+id/txtDiaChi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:hint="@string/tvDiaChi"
+        android:paddingLeft="10dp" />
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_sua"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_edit"
+                    android:text="@string/btnSua" />
+
+                <Button
+                    android:id="@+id/btn_xoa"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_delete"
+                    android:text="@string/btnXoa" />
+                <Button
+                    android:id="@+id/btn_back"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@drawable/ic_exit"
+                    android:text="@string/btnBack" />
+
+    </LinearLayout>
+</LinearLayout>

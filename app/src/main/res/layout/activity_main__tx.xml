@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".GiaoDien.ActivityTaiXe">
+
+    <TextView
+        style="@style/title"
+        android:text="@string/taiXe" />
+
+    <LinearLayout
+        style="@style/linearBt">
+
+        <TextView
+            style="@style/textView"
+            android:text="@string/maTX" />
+
+        <EditText
+            android:id="@+id/txt_maTX"
+            style="@style/editText" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        style="@style/linearBt">
+
+        <TextView
+            style="@style/textView"
+            android:text="@string/tenTX"
+
+            />
+
+        <EditText
+            android:id="@+id/txt_tenTX"
+            style="@style/editText" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/linearBt">
+
+        <TextView
+            style="@style/textView"
+            android:text="@string/ngaySinh" />
+
+        <EditText
+            android:id="@+id/txt_NgaySinh"
+            style="@style/editText" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/linearBt">
+
+        <TextView
+            style="@style/textView"
+            android:text="@string/diaChi" />
+
+        <EditText
+            android:id="@+id/txt_DiaChi"
+            style="@style/editText" />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/linearDefault">
+
+        <TextView
+            style="@style/textView"
+            android:layout_gravity="center"
+            android:text="Hình ảnh" />
+
+        <ImageButton
+            android:id="@+id/bt_signature"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+             />
+    </LinearLayout>
+
+    <LinearLayout
+        style="@style/linearBt"
+        android:layout_marginTop="5dp">
+
+        <Button
+            android:id="@+id/bt_add"
+            style="@style/button"
+            android:drawableStart="@drawable/ic_baseline_add_circle_24"
+            android:text="@string/add" />
+
+        <Button
+            android:id="@+id/bt_remove"
+            style="@style/button"
+            android:drawableStart="@drawable/ic_baseline_remove_circle_24"
+            android:text="@string/remove" />
+
+        <Button
+            android:id="@+id/bt_update"
+            style="@style/button"
+            android:drawableStart="@drawable/ic_baseline_update_24"
+            android:text="@string/update" />
+
+        <Button
+            android:id="@+id/bt_clear"
+            style="@style/button"
+            android:drawableStart="@drawable/ic_baseline_clear_all_24"
+            android:text="@string/clear" />
+    </LinearLayout>
+
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewTaiXe"
+        style="@style/listView"
+        android:layout_marginTop="5dp" />
+
+</LinearLayout>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/cardView"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="5dp">
+    <LinearLayout
+        android:background="@android:color/holo_blue_light"
+        style="@style/linearDefault"
+        android:orientation="horizontal">
+
+        <ImageView
+            style="@style/imageCardView"
+            android:src="@drawable/vietnam"
+            android:scaleType="center"
+            android:id="@+id/avatar" />
+
+        <LinearLayout style="@style/linearDefault"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp">
+            <TextView
+                android:id="@+id/edit_maXe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1" />
+
+            <TextView
+                android:id="@+id/edit_tenXe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1" />
+            <TextView
+                android:id="@+id/edit_namSX"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1" />
+            <TextView
+                android:id="@+id/edit_tenTaiXe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>

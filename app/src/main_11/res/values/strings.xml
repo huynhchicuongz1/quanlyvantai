@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Quản lí xe vận tải</string>
+    <string name="mnLuu">Lưu</string>
+    <string name="mnDoc">Đọc</string>
+    <string name="mnThoat">Thoát</string>
+    <string name="etSoPhieu">Số phiếu</string>
+    <string name="etNgayXuatPhieu">Ngày xuât phiếu</string>
+    <string name="etNgayXuatPhat">Ngày xuất phát</string>
+    <string name="btnThem">Thêm</string>
+    <string name="btnClear">Clear</string>
+    <string name="btnXoa">Xóa</string>
+    <string name="btnSua">Sửa</string>
+    <string name="tvSoPhieu">Số phiếu</string>
+    <string name="tvNgayTao">Ngày tạo phiếu</string>
+    <string name="tvNgayXuatPhat">Ngày xuât phát</string>
+    <string name="tvTuyen">Tuyến</string>
+    <string name="tvXe">Xe</string>
+    <string name="tvTuyenXe">Tuyến xe</string>
+    <string name="tvNhaXe">Nhà Xe</string>
+    <string name="tvMaTX">Mã Tài Xế</string>
+    <string name="tvTenTX">Tên Tài Xế</string>
+    <string name="tvNgaySinh">Ngày Sinh</string>
+    <string name="tvDiaChi">Địa Chỉ</string>
+    <string name="btnBack">Trở Lại</string>
+    <string name="BtnChiTiet">Chi Tiết</string>
+    <string name="btn_QLTAIXE">Quản Lý Tài Xế</string>
+    <string name="btn_QLXe">Quản Lý Xe</string>
+    <string name="btn_QLPhanCong">Quản Lý Phân Công</string>
+    <string name="btn_QLTuyen">Quản Lý Tuyến</string>
+    <string name="btn_QLTinh">Quản Lý Tỉnh</string>
+    <string name="btn_TimKiem">Tìm Kiếm</string>
+
+
+</resources>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView style="@style/cardView"
+    android:background="@drawable/set_status_button"
+    android:layout_marginBottom="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:background="@drawable/set_status_button"
+        style="@style/linearDefault"
+        android:orientation="horizontal"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+        <ImageView
+            android:id="@+id/info_signature"
+            android:layout_gravity="right"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/border"/>
+
+        <LinearLayout style="@style/linearDefault"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:padding="10dp">
+            <TextView
+                android:id="@+id/info_maTX"
+                android:text="TEST"
+                style="@style/textViewCardView"
+                />
+            <TextView
+                android:id="@+id/info_tenTX"
+                android:text="TEST"
+                style="@style/textViewCardView" />
+
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

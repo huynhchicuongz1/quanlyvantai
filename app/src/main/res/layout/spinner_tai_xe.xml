@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/cardView"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="5dp">
+    <LinearLayout
+        android:background="@android:color/holo_blue_light"
+        style="@style/linearDefault"
+        android:orientation="horizontal">
+        <LinearLayout style="@style/linearDefault"
+            android:layout_weight="1"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/info_maTX"
+                android:text="TEST"
+                android:textColor="#fff"
+                style="@style/textViewCardView"
+                />
+            <TextView
+                android:id="@+id/info_tenTX"
+                android:textColor="#fff"
+                android:text="TEST"
+                style="@style/textViewCardView" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
